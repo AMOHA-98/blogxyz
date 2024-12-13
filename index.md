@@ -6,7 +6,7 @@ permalink: /
 
 # Welcome to xyz-zyx
 
-Hello! I'm Ahmed, a 3rd year Computer Science student. I recently completed a summer internship as an AI Engineer and I'm currently working on my dissertation. This site serves as a portfolio of my projects and a blog where I share my thoughts on various topics in technology, AI, and possible futures.
+Hello! I'm Ahmed, a 3rd year Computer Science student. I recently completed a summer internship as an ML Engineer and I'm currently working on my dissertation also working as a Data Scientist at a biomaterial's company. This site serves as a portfolio of my projects and a blog where I share my thoughts on various topics in technology, AI, and possible futures.
 
 ## Recent Posts
 
