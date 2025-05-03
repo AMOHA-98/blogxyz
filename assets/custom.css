@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,700&display=swap');
+
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-size: 15px;
+  background: linear-gradient(120deg, #0a0a0a 0%, #111827 100%);
+  color: var(--text-color);
+  letter-spacing: 0.01em;
+  /* Add animated grid overlay */
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.13;
+  background-image:
+    linear-gradient(transparent 95%, #4ea1ff 100%),
+    linear-gradient(90deg, transparent 95%, #4ea1ff 100%);
+  background-size: 40px 40px;
+  animation: gridmove 8s linear infinite;
+}
+
+@keyframes gridmove {
+  0% { background-position: 0 0, 0 0; }
+  100% { background-position: 40px 40px, 40px 40px; }
+}
+
+/* Card effect for main content */
+.container {
+  max-width: 700px;
+  padding: 2em 1.5em;
+  background: rgba(20, 20, 20, 0.98);
+  border-radius: 10px;
+  box-shadow: 0 2px 16px 0 #000a;
+  position: relative;
+  z-index: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed #4ea1ff33;
+  margin: 2.5em 0;
+}
+
+.menu ul li a {
+  font-family: 'Source Code Pro', monospace;
+  padding: 2px 8px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.menu ul li a.active, .menu ul li a[aria-current="page"] {
+  color: #4ea1ff;
+  text-decoration: underline;
+  background: rgba(78,161,255,0.08);
+}
+
+.menu ul li a:hover {
+  color: #4ea1ff;
+  background: rgba(78,161,255,0.15);
+}
+
+a {
+  color: #4ea1ff;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 0; bottom: -2px;
+  width: 100%; height: 2px;
+  background: #4ea1ff;
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+
+a:hover {
+  color: #82c7ff;
+  background: none;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+}
+
+p, ul, ol {
+  margin-bottom: 18px;
+  line-height: 1.7;
+}
+
+pre, code {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 13px;
+}
+
+/* Minimalist scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #111;
+}
+::-webkit-scrollbar-thumb {
+  background: #4ea1ff55;
+  border-radius: 4px;
+}
+
+/* Smoother transitions for interactive elements */
+button, input, .menu ul li a, a {
+  transition: all 0.2s;
+} 

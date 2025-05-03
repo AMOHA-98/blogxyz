@@ -11,7 +11,7 @@ header_pages:
 
 style: dark
 
-footer: 'Connect with me on <a href="https://twitter.com/nidarmm">Twitter</a>'
+footer: 'Connect with me on <a href="https://twitter.com/nidarmmv2">Twitter</a>'
 
 # Build settings
 markdown: kramdown
@@ -26,3 +26,8 @@ relative_links:
   collections: true
 
 permalink: /:year/:month/:day/:title/
+
+# Custom CSS for enhancements
+sass:
+  style: compressed
+

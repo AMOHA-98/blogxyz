@@ -6,7 +6,7 @@ permalink: /
 
 # Welcome to xyz-zyx
 
-Hello! I'm Ahmed, a final year Computer Science student. I recently completed a summer internship as an ML Engineer and I'm currently working on my dissertation also currently work as a Data scientist at a Biomaterial's company. This site serves as a portfolio of my projects and a blog where I share my thoughts on various topics in technology, AI, and possible futures.
+Hello! I'm Ahmed, a recent Computer Science graduate. I recently completed my dissertation, worked as a Data Scientist at a biomaterials company, and spent a summer last year working as an ML Engineer. I'm now preparing for an MSc and have recently secured a research internship at Google DeepMind. This site is my portfolio and blog, where I share my thoughts on technology, AI, and possible futures.
 
 ## Recent Posts
 
@@ -23,6 +23,7 @@ Hello! I'm Ahmed, a final year Computer Science student. I recently completed a 
 
 ## Featured Projects
 
-- [Projects coming soon...]({{ site.baseurl }}/projects/)
+- [ML Projects]({{ site.baseurl }}/projects/)
+- [More coming soon!]
 
 [View all projects]({{ site.baseurl }}/projects/)

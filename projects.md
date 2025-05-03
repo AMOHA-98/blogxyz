@@ -6,6 +6,6 @@ permalink: /projects/
 
 # Projects
 
-## Coming Soon
+## ML Projects
 
-Stay tuned for projects in the works!
+Stay tuned for more projects and write-ups coming soon!
