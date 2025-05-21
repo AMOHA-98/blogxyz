@@ -19,10 +19,10 @@ const strainColors = {
 };
 
 // --- Configuration ---
-cellSize = 8; // Size of each cell/pixel cube in pixels
-const updateInterval = 100; // Milliseconds between simulation updates
-const maxAge = 75;         // Max simulation steps an ALIVE cell can live
-const mutationRate = 0.05; // 5% chance of mutation
+cellSize = 3; // Size of each cell/pixel cube in pixels
+const updateInterval = 750; // Milliseconds between simulation updates
+const maxAge = 30;         // Max simulation steps an ALIVE cell can live
+const mutationRate = 0.01; // 5% chance of mutation
 
 function initializeSimulation() {
     canvasPixelEvo.width = window.innerWidth;
@@ -36,7 +36,7 @@ function initializeSimulation() {
     ageGrid = createGrid(gridWidth, gridHeight, 0);
     nextAgeGrid = createGrid(gridWidth, gridHeight, 0);
 
-    seedGrid(7); // Start with a few more seeds
+    seedGrid(); // Start with a few more seeds
 }
 
 function createGrid(width, height, defaultValue) {
@@ -50,15 +50,22 @@ function createGrid(width, height, defaultValue) {
     return newGrid;
 }
 
-function seedGrid(numSeeds) {
-    for (let i = 0; i < numSeeds; i++) {
-        const x = Math.floor(Math.random() * gridWidth);
-        const y = Math.floor(Math.random() * gridHeight);
-        if (grid[y] && grid[y][x] !== undefined) {
-            // Assign a random initial strain (1 for STRAIN_0, 2 for STRAIN_1, etc.)
-            const initialStrain = Math.floor(Math.random() * NUM_STRAINS) + 1; 
-            grid[y][x] = initialStrain;
-            ageGrid[y][x] = 0; // Initial age
+function seedGrid() { // Takes no arguments now
+    const numSeedsToPlace = Math.max(1, Math.floor(gridHeight * 0.05)); // Seed ~5% of height, min 1
+    const seedXPosition = 1; // Column index for seeding (0 is very edge, 1 is next to it)
+
+    for (let i = 0; i < numSeedsToPlace; i++) {
+        // Distribute seeds along the left edge.
+        // This tries to pick somewhat random y positions within segments of the height.
+        const ySegment = gridHeight / numSeedsToPlace;
+        const y = Math.floor((i * ySegment) + (Math.random() * ySegment));
+        
+        const finalY = Math.min(gridHeight - 1, Math.max(0, y)); // Ensure y is within bounds
+
+        if (grid[finalY] && grid[finalY][seedXPosition] !== undefined) {
+            const initialStrain = Math.floor(Math.random() * NUM_STRAINS) + 1;
+            grid[finalY][seedXPosition] = initialStrain;
+            ageGrid[finalY][seedXPosition] = 0;
         }
     }
 }
@@ -111,18 +118,18 @@ function updateGridLogic() {
                     nextAgeGrid[y][x] = 0; // Newborn cell has age 0
                 }
             } else { // Cell is ALIVE (some strain)
-                // Death by Overcrowding or Isolation (dies if more than 2 or less than 1 neighbor)
-                if (aliveCount > 2 || aliveCount < 1) {
+                // Survival/Death conditions for ALIVE cells
+                if (aliveCount === 0 || aliveCount >= 4) { // Dies if 0 neighbors (isolation) or 4+ neighbors (overcrowding)
+                    // Becomes EMPTY, age resets via default nextAgeGrid[y][x] = 0 (already set before this block);
+                }
+                // Death by Old Age (applies only if not already dead by neighbor count)
+                else if (cellAge >= maxAge) {
                     // Becomes EMPTY, age resets via default nextAgeGrid[y][x] = 0;
                 }
-                // Death by Old Age
-                else if (cellAge >= maxAge) { // Use >= for maxAge
-                    // Becomes EMPTY, age resets
-                }
-                // Survival
+                // Survival (1, 2, or 3 neighbors and not too old)
                 else {
-                    nextGrid[y][x] = cellState; // Stays alive with current strain
-                    nextAgeGrid[y][x] = cellAge + 1; // Increment age
+                    nextGrid[y][x] = cellState;       // Stays alive with current strain
+                    nextAgeGrid[y][x] = cellAge + 1;  // Increment age
                 }
             }
         }
@@ -147,7 +154,7 @@ function drawGrid() {
             const cellState = grid[y][x];
             if (cellState !== EMPTY) {
                 ctxPixelEvo.fillStyle = strainColors[cellState] || '#FF00FF'; // Fallback color if strain undefined
-                ctxPixelEvo.fillRect(x * cellSize, y * cellSize, cellSize - 1, cellSize - 1); // -1 for grid line
+                ctxPixelEvo.fillRect(x * cellSize, y * cellSize, cellSize, cellSize); // -1 for grid line
             }
         }
     }
