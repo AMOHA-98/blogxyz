@@ -100,18 +100,7 @@ h3, h4, h5, h6 {
   margin-bottom: 12px;
 }
 
-hr {
-  border: 0; /* Remove previous border-top */
-  height: 2px;
-  background-image: linear-gradient(
-    to right,
-    transparent,
-    var(--secondary-accent),
-    transparent
-  );
-  opacity: 0.75; /* Adjust opacity as needed */
-  margin: 3em 0; /* Increased margin */
-}
+/* hr styling removed to fallback to theme default */
 
 .menu ul li a {
   font-family: 'Source Code Pro', monospace;
