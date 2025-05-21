@@ -198,3 +198,15 @@ blockquote {
 blockquote p:last-child {
   margin-bottom: 0;
 }
+
+/* CSS for the Matrix Rain Canvas Background */
+#matrix-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;   /* Viewport width */
+  height: 100vh;  /* Viewport height */
+  z-index: -1;    /* Behind all other direct children of body */
+  background-color: transparent; /* Animation script should handle background and trails */
+  pointer-events: none; /* Canvas should not intercept mouse events */
+}
