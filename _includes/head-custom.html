@@ -1,3 +1,7 @@
 <link rel="stylesheet" href="{{ '/assets/custom.css' | relative_url }}">
 <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-{% include mathjax.html %} 
+<script>
+  const storedTheme = localStorage.getItem('theme');
+  if (storedTheme) document.documentElement.setAttribute('data-theme', storedTheme);
+</script>
+{% include mathjax.html %}
