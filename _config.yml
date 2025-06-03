@@ -5,6 +5,7 @@ url: "https://amoha-98.github.io"
 
 header_pages:
   - index.md
+  - about.md
   - blog.md
   - projects.md
   - contact.md
