@@ -6,8 +6,6 @@ permalink: /blog/
 
 # Blog Posts
 
-Stay posted for upcoming articles!
-
 {% for post in site.posts %}
   <article>
     <h2>
