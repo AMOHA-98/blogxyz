@@ -24,6 +24,5 @@ Hello! I'm Ahmed, a recent Computer Science graduate. I recently completed my di
 ## Featured Projects
 
 - [ML Projects]({{ site.baseurl }}/projects/)
-- [More coming soon!]
 
 [View all projects]({{ site.baseurl }}/projects/)

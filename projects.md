@@ -8,4 +8,3 @@ permalink: /projects/
 
 ## ML Projects
 
-Stay tuned for more projects and write-ups coming soon!
