@@ -23,7 +23,7 @@ DeepMind as a research ready intern.
 
 * Given full ownership to architect, build, and deploy the company's primary data infrastructure from the ground up on Microsoft Azure.
 * Led the complete technical delivery of the system, designing and implementing the PostgreSQL database, all custom ETL pipelines, and automated workflows for data ingestion, transformation, and validation.
-* Standardised data formats and established validation processes, reducing manual data cleanup by **80%** and significantly accelerating experimental analysis timelines for the science teams.
+* Standardised data formats and established validation processes, reducing manual data cleanup by 80% and significantly accelerating experimental analysis timelines for the science teams.
 * Worked cross-functionally with chemists and research scientists, gathering requirements, iterating on data models, and rolling out tailored solutions aligned with experimental processes.
 * Acted as an ML advisor to the CTO on Bayesian optimisation strategies(in partnership with external consultants) for biomaterials experiments and helping translate domain research into an actionable technical roadmap.
 
