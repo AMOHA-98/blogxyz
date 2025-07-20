@@ -6,7 +6,9 @@ permalink: /
 
 # Welcome to xyz-zyx
 
-Hello! I'm Ahmed, a recent Computer Science graduate. I recently completed my dissertation and now work as a Data Scientist at a biomaterials company. Last summer I served as a Machine Learning Engineer at a telehealth startup. I'm preparing for an MSc and have secured a research internship at Google DeepMind. I love project-based learning and tackling new ideas. This site is my portfolio and blog, where I share thoughts on technology, AI, and possible futures. You can also learn more [about me]({{ site.baseurl }}/about/).
+Hello! I'm Ahmed, a recent Computer Science graduate experienced in architecting and deploying end-to-end machine-learning systems. My domain focus spans data engineering, computer vision, and Large Language Models. I thrive in project-driven environments and enjoy translating research into production solutions.
+
+Currently, I'm contributing to research at Google DeepMind via the University of Exeter on "Scientific Paper Understanding with Multimodal LLMs and Knowledge Graphs" while previously a data scientist at Kelpi, a biomaterials company. 
 
 ## Recent Posts
 
@@ -23,6 +25,7 @@ Hello! I'm Ahmed, a recent Computer Science graduate. I recently completed my di
 
 ## Featured Projects
 
-- [ML Projects]({{ site.baseurl }}/projects/)
+- [Technical Projects & Case Studies]({{ site.baseurl }}/projects/)
+- [Professional Experience]({{ site.baseurl }}/about/#experience)
 
 [View all projects]({{ site.baseurl }}/projects/)
