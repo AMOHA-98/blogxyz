@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Experience Working as a Data Scientist at a Biomaterials Company"
-date: 2024-12-20
+date: 2025-07-20
 categories: [data-science, biomaterials, startups]
 ---
 
