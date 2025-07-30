@@ -7,13 +7,13 @@ categories: [data-science, biomaterials, startups]
 
 # My Experience Working as a Data Scientist at a Biomaterials Company
 
-During my internship as a Junior Data Scientist at Kelpi, a biomaterials startup, I discovered that data science in the real world is vastly different from the clean datasets and well-defined problems of academia. Working alongside chemistry PhDs who were developing bioplastics from seaweed, I found myself in a fascinating intersection of computer science and materials science.
+During my internship as a Junior Data Scientist at Kelpi, a biomaterials startup, I discovered that data science in the real world is vastly different from the clean datasets and well-defined problems of academia. Working alongside chemistry PhDs who were developing bioplastics from seaweed, I found myself in a awkward intersection of computer science and materials science.
 
 ## From Seaweed to Data Schema
 
 One of the most remarkable aspects of working at Kelpi was witnessing the journey from raw seaweed to functional bioplastic materials. The chemistry team was conducting experiments involving complex metrics like WVTR (Water Vapor Transmission Rate) and Cobb tests for measuring water absorption. As the sole computer scientist among a team of chemistry PhDs, I had to quickly learn not just what these measurements meant, but how to structure them in ways that would enable meaningful analysis.
 
-Translating chemistry concepts into structured data schemas proved to be one of my most challenging yet rewarding tasks. When chemists discussed "formulation stability" or "synthesis yield," they were describing nuanced experimental outcomes that needed to be captured with precision. Every measurement, from tensile strength to biodegradation rates, had specific units, conditions, and contexts that were crucial for maintaining data integrity.
+Translating chemistry concepts into structured data schemas proved to be one of my most challenging yet rewarding tasks. When chemists discussed "formulation stability" or "synthesis yield," they were describing nuanced experimental outcomes that needed to be captured with precision. Every measurement, from tensile strength to water vapour transmission rate, had specific units, conditions, and contexts that were crucial for maintaining data integrity.
 
 ## The ETL Pipeline Challenge
 
@@ -25,11 +25,11 @@ Early on, I automated the extraction of Excel sheets into CSV files, significant
 
 ## Technical Architecture and Azure Integration
 
-My role expanded considerably during the continuation phase of my internship, where I took full ownership of Kelpi's data architecture, engineering, and system design. This involved extensive hands-on experience with Azure cloud services, PostgreSQL databases, and substantial Python programming to construct custom ETL pipelines tailored specifically for Kelpi's business needs.
+My role expanded considerably during the continuation phase of my internship, where I took full ownership of Kelpi's data architecture, engineering, and system design. This involved extensive hands-on experience with Azure, PostgreSQL databases, and substantial Python programming to construct custom ETL pipelines tailored specifically for Kelpi's business needs.
 
 One of my core achievements was creating an adaptable architecture that avoided locking Kelpi into a single database provider. The monitoring and logging systems I implemented significantly improved both reliability and transparency of the data management process. When researchers questioned data discrepancies, I could provide clear, traceable explanations that built trust in the system.
 
-The infrastructure we built has set Kelpi up effectively to integrate machine learning into their workflows. Centralizing data into a single, well-managed repository provides a strong foundation for predictive modeling and experimentation. Looking forward, there's tremendous potential for embedding machine learning directly within their experimentation pipelines, moving beyond external analytical providers to develop in-house expertise.
+The infrastructure I built has set Kelpi up effectively to integrate machine learning into their workflows. Centralizing data into a single, well-managed repository provides a strong foundation for predictive modeling and experimentation. Looking forward, there's tremendous potential for embedding machine learning directly within their experimentation pipelines, moving beyond external analytical providers to develop in-house expertise.
 
 ## Bridging Two Worlds
 
@@ -50,7 +50,5 @@ The performance optimization challenges were particularly interesting in the che
 Beyond the technical growth, this experience gave me practical knowledge of managing complex technical responsibilities in a startup environment. My skills in software engineering, pipeline design, cloud infrastructure, and systems integration improved dramatically. More importantly, I developed a deep appreciation for meticulous documentation and clear communication, both crucial for sustaining complex technical systems.
 
 The mentorship I received from the chemistry team enriched my understanding of the intersection between data science and materials science. Conversations with colleagues from product development illustrated how data-driven insights directly support meaningful research into sustainable materials.
-
-Working at Kelpi was ultimately about more than building data infrastructure. It was about enabling scientific discovery in the fascinating field of biomaterials, where seaweed becomes the foundation for sustainable packaging solutions. 
 
 *The experience reinforced my belief that data science is most impactful when it serves domain expertise, rather than attempting to replace it.* 
