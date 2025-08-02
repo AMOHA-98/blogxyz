@@ -1,0 +1,10 @@
+- title: Automatic Detection of Diabetic Retinopathy on Edge Devices
+  description: Investigated and compared vision models for edge deployment.
+  url: /projects/#automatic-detection-of-diabetic-retinopathy-on-edge-devices-bsc-dissertation
+- title: Location-Based Image Matching API — Patina Systems
+  description: FastAPI service for geospatial image matching.
+  url: /projects/#location-based-image-matching-api--patina-systems
+- title: Creative Writing LLM Fine-Tuning — Pagerift
+  description: Fine-tuned Gemma 3 for creative story writing.
+  url: /projects/#creative-writing-llm-fine-tuning--pagerift
+
