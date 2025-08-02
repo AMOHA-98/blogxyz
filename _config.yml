@@ -3,20 +3,12 @@ description: "Exploring technology, AI, and possible futures"
 baseurl: "/blogxyz"
 url: "https://amoha-98.github.io"
 
-header_pages:
-  - index.md
-  - about.md
-  - blog.md
-  - projects.md
-  - contact.md
-
-style: dark
+style: light
 
 footer: 'Connect with me on <a href="https://twitter.com/nidarmmv2">Twitter</a>'
 
 # Build settings
 markdown: kramdown
-remote_theme: b2a3e8/jekyll-theme-console
 
 plugins:
   - jekyll-feed

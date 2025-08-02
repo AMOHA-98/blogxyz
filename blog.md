@@ -1,16 +1,16 @@
 ---
 layout: page
-title: /blog
+title: Blog
 permalink: /blog/
 ---
 
-# Blog Posts
-
+<div class="posts">
 {% for post in site.posts %}
-  <article>
-    <h2>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <span style="float: right; font-size: 0.8em;">{{ post.date | date: "%B %d, %Y %H:%M" }}</span>
-    </h2>
+  <article class="card">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}{% if post.categories %} — {{ post.categories | join: ", " }}{% endif %}</p>
+    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
   </article>
 {% endfor %}
+</div>
+
