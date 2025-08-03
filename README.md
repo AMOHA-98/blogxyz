@@ -1,2 +1,2 @@
 # am portfolio
-A portfolio and blog exploring technology, AI, and possible futures.
+a portfolio and blog exploring technology, ai, and possible futures.
