@@ -181,15 +181,7 @@ a:hover {
   margin-bottom: 0;
 }
 
-.nav-links-section {
-  margin-top: 2rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border-color);
-}
 
-.nav-links-section p {
-  margin-bottom: 0.5rem;
-}
 
 @media (max-width: 768px) {
   .hero h1 {
@@ -275,10 +267,14 @@ section h2 {
 }
 
 .timeline-item {
-  margin-bottom: 2rem;
-  padding-left: 1rem;
+  margin-bottom: 2.5rem;
+  padding-left: 1.5rem;
   border-left: 1px solid var(--border-color);
   position: relative;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
 }
 
 .timeline-item::before {
@@ -286,22 +282,26 @@ section h2 {
   position: absolute;
   left: -4px;
   top: 0.25rem;
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background: var(--text-color);
+  background: #ff6b35;
 }
 
 .timeline-date {
-  font-size: 0.85rem;
-  color: var(--muted-text);
+  font-size: 0.875rem;
+  color: #ff6b35;
   margin-bottom: 0.25rem;
   display: block;
+  font-weight: 500;
 }
 
 .timeline-title {
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
+  color: var(--text-color);
+  font-size: 1.125rem;
+  line-height: 1.4;
 }
 
 /* Mobile navigation */
