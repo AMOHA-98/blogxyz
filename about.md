@@ -13,7 +13,7 @@ DeepMind as a research ready intern.
 
 ## Experience
 
-### Research Ready Intern — Google DeepMind (via University of Exeter IDSAI) (June 2025 – Present)
+### Research Ready Intern — Google DeepMind (with University of Exeter) (June 2025 – Present)
 
 * Contributing to the "Scientific Paper Understanding with Multimodal LLMs and Knowledge Graphs" research project under the supervision of Dr. Hang Dong and Dr. Zhang Guoqiang.
 * Developing and evaluating methods to improve the quality and contextual accuracy of image captioning for figures within scientific papers.
