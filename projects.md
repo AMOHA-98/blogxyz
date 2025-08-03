@@ -17,7 +17,6 @@ permalink: /projects/
 
 * Designed a FastAPI microservice that performs geospatially-aware image matching as a core product component for a stealth-mode startup.
 * Implemented GPU-accelerated feature extraction and approximate nearest-neighbour search for real-time image matching capabilities.
-* Packaged the service with containerisation and CI/CD for seamless deployment and scalability.
 * Delivered full technical documentation and hand-off while maintaining NDA confidentiality throughout the development process.
 
 ## Creative Writing LLM Fine-Tuning — Pagerift
