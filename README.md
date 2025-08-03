@@ -1,2 +1,2 @@
-# Ahmed Mohamed Ahmed Portfolio
+# am portfolio
 A portfolio and blog exploring technology, AI, and possible futures.

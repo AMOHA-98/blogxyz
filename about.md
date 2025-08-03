@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: ""
 permalink: /about/
 ---
 
@@ -12,33 +12,33 @@ i'm ahmed, a computer science graduate driven by project-based learning. my codi
 
 research ready intern — google deepmind (with university of exeter) (june 2025 – present)
 
-* Contributing to the "Scientific Paper Understanding with Multimodal LLMs and Knowledge Graphs" research project under the supervision of Dr. Hang Dong and Dr. Zhang Guoqiang.
-* Developing and evaluating methods to improve the quality and contextual accuracy of image captioning for figures within scientific papers.
-* Working with multimodal architectures to bridge visual (figures, graphs) and textual (paper content) information.
+* contributing to the "scientific paper understanding with multimodal llms and knowledge graphs" research project under the supervision of dr. hang dong and dr. zhang guoqiang.
+* developing and evaluating methods to improve the quality and contextual accuracy of image captioning for figures within scientific papers.
+* working with multimodal architectures to bridge visual (figures, graphs) and textual (paper content) information.
 
 junior data scientist intern — kelpi (jan 2025 – june 2025)
 
-* Given full ownership to architect, build, and deploy the company's primary data infrastructure from the ground up on Microsoft Azure.
-* Led the complete technical delivery of the system, designing and implementing the PostgreSQL database, all custom ETL pipelines, and automated workflows for data ingestion, transformation, and validation.
-* Standardised data formats and established validation processes, reducing manual data cleanup by 80% and significantly accelerating experimental analysis timelines for the science teams.
-* Worked cross-functionally with chemists and research scientists, gathering requirements, iterating on data models, and rolling out tailored solutions aligned with experimental processes.
-* Acted as an ML advisor to the CTO on Bayesian optimisation strategies(in partnership with external consultants) for biomaterials experiments and helping translate domain research into an actionable technical roadmap.
+* given full ownership to architect, build, and deploy the company's primary data infrastructure from the ground up on microsoft azure.
+* led the complete technical delivery of the system, designing and implementing the postgresql database, all custom etl pipelines, and automated workflows for data ingestion, transformation, and validation.
+* standardised data formats and established validation processes, reducing manual data cleanup by 80% and significantly accelerating experimental analysis timelines for the science teams.
+* worked cross-functionally with chemists and research scientists, gathering requirements, iterating on data models, and rolling out tailored solutions aligned with experimental processes.
+* acted as an ml advisor to the cto on bayesian optimisation strategies(in partnership with external consultants) for biomaterials experiments and helping translate domain research into an actionable technical roadmap.
 
 freelance ml consultant — (2024 – present)
 
-* Patina Systems:
-* Designed and built a location-based image-matching retrieval API for Patina Systems.
+* patina systems:
+* designed and built a location-based image-matching retrieval api for patina systems.
 
-* Pagerift:
-* Fine-tuned a Large Language Model (Gemma 3) for creative story writing for Pagerift, integrating the DSPy framework to improve output quality.
-* Provided consulting on backend development and scalable ML architecture.
+* pagerift:
+* fine-tuned a large language model (gemma 3) for creative story writing for pagerift, integrating the dspy framework to improve output quality.
+* provided consulting on backend development and scalable ml architecture.
 
 machine learning engineer intern — noetic health (may 2024 – aug 2024)
 
-* Contributed to an AI-powered diagnostic platform for mental health by integrating multi-agent systems and LLMs (OpenAI, Claude, Groq) to create dynamic and empathetic user assessments.
-* Developed and maintained backend APIs with FastAPI and MongoDB, ensuring efficient communication between microservices.
-* Implemented safety and ethical guardrails to ensure responsible and secure AI usage.
-* Utilised AWS services to deploy and scale the platform in production.
+* contributed to an ai-powered diagnostic platform for mental health by integrating multi-agent systems and llms (openai, claude, groq) to create dynamic and empathetic user assessments.
+* developed and maintained backend apis with fastapi and mongodb, ensuring efficient communication between microservices.
+* implemented safety and ethical guardrails to ensure responsible and secure ai usage.
+* utilised aws services to deploy and scale the platform in production.
 
 
 
