@@ -4,7 +4,7 @@ layout: page
 permalink: /contact/
 ---
 
-# Get in touch
+Get in touch
 
 Feel free to reach out to me:
 
