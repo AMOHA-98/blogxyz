@@ -12,17 +12,16 @@
 
 [data-theme='light'] {
   --text-color: #222;
-  --background-gradient: linear-gradient(120deg, #ffffff 0%, #e2e8f0 100%);
-  --container-bg: rgba(255, 255, 255, 0.9);
+  --background-gradient: linear-gradient(120deg, #faf9f6 0%, #f0ede6 100%);
+  --container-bg: rgba(250, 249, 246, 0.9);
 }
 
 body {
   font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   font-size: 14px;
-  background: var(--background-gradient);
+  background: #faf9f6;
   color: var(--text-color);
   letter-spacing: normal;
-  /* Add animated grid overlay */
   position: relative;
   overflow-x: hidden;
 }

@@ -4,9 +4,9 @@ layout: page
 permalink: /contact/
 ---
 
-Get in touch
 
-Feel free to reach out to me:
+
+feel free to reach out to me:
 
 <div class="social-links">
   <a href="https://twitter.com/nidarmmv2" target="_blank">Twitter</a>

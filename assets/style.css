@@ -1,11 +1,11 @@
 /* Minimal Clean Palette */
 :root {
-  --bg-color: #ffffff;
+  --bg-color: #faf9f6;
   --text-color: #1a1a1a;
   --accent-color: #666666;
-  --card-bg: #ffffff;
+  --card-bg: #faf9f6;
   --border-color: #eaeaea;
-  --hover-bg: #f8f8f8;
+  --hover-bg: #f0ede6;
   --muted-text: #666666;
   --light-text: #999999;
 }
