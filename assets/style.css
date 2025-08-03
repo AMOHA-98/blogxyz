@@ -199,11 +199,16 @@ a:hover {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   background: var(--card-bg);
+  transition: all 0.2s ease;
 }
 
 .card:last-child {
   border-bottom: none;
   margin-bottom: 0;
+}
+
+.card:hover {
+  transform: translateY(-1px);
 }
 
 .card h3 {
@@ -213,10 +218,27 @@ a:hover {
   font-weight: 600;
 }
 
+.card h3 a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.card h3 a:hover {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
 .card p {
   color: var(--text-color);
   line-height: 1.7;
   margin-bottom: 0;
+  transition: color 0.2s ease;
+}
+
+.card:hover p:not(.post-meta) {
+  color: var(--text-color);
 }
 
 /* Simple sections */
@@ -230,11 +252,21 @@ section h2 {
 }
 
 /* Post meta styling */
-
 .post-meta {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   color: var(--muted-text);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+}
+
+/* Blog-specific enhancements */
+.card .post-meta {
+  transition: color 0.2s ease;
+}
+
+.card:hover .post-meta {
+  color: var(--accent-color);
 }
 
 .site-footer {
