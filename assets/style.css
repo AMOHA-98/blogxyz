@@ -33,27 +33,27 @@ html, body {
 }
 
 h1 { 
-  font-weight: 600; 
-  font-size: 2.5rem; 
+  font-weight: 700; 
+  font-size: 2.25rem; 
   margin-bottom: 1rem; 
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
 }
 
 h2 { 
   font-weight: 600; 
-  font-size: 1.5rem; 
+  font-size: 1.375rem; 
   margin-top: 3rem; 
   margin-bottom: 1.5rem;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 h3 { 
   font-weight: 600; 
   font-size: 1.125rem; 
-  margin-top: 2rem; 
+  margin-top: 1.5rem; 
   margin-bottom: 0.5rem;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 
 h4 {
@@ -154,35 +154,46 @@ a:hover {
 }
 
 .hero {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
   color: var(--text-color);
-  font-weight: 600;
-  line-height: 1.2;
+  font-weight: 700;
+  line-height: 1.1;
 }
 
 .hero .tagline {
   color: var(--muted-text);
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-weight: 400;
   font-size: 1.125rem;
-  line-height: 1.5;
+  line-height: 1.4;
+  font-style: italic;
 }
 
 .hero .intro {
   font-size: 1rem;
-  line-height: 1.7;
+  line-height: 1.6;
   color: var(--text-color);
   margin-bottom: 0;
 }
 
+.nav-links-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.nav-links-section p {
+  margin-bottom: 0.5rem;
+}
+
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.875rem;
   }
   
   .hero .tagline {
@@ -190,10 +201,7 @@ a:hover {
   }
 }
 
-/* Remove all fancy button styling - use simple text links */
-
 /* Simple clean cards */
-
 .card {
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 2rem;
@@ -204,16 +212,6 @@ a:hover {
 .card:last-child {
   border-bottom: none;
   margin-bottom: 0;
-}
-
-/* Simple sections */
-section {
-  margin-bottom: 4rem;
-}
-
-section h2 {
-  margin-bottom: 2rem;
-  color: var(--text-color);
 }
 
 .card h3 {
@@ -227,6 +225,16 @@ section h2 {
   color: var(--text-color);
   line-height: 1.7;
   margin-bottom: 0;
+}
+
+/* Simple sections */
+section {
+  margin-bottom: 4rem;
+}
+
+section h2 {
+  margin-bottom: 2rem;
+  color: var(--text-color);
 }
 
 /* Post meta styling */

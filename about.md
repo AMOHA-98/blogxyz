@@ -4,56 +4,41 @@ title: About
 permalink: /about/
 ---
 
-# About Me
+# About
 
-I'm Ahmed, a Computer Science graduate driven by project-based learning. My coding journey started long before formal 
-study, and I've since tackled projects ranging from using lightweight vision systems for diagnostics to litter detection 
-systems. I'm currently building data infrastructure at Kelpi, a biomaterials company, and this summer I'm joining Google 
-DeepMind as a research ready intern.
+I'm Ahmed, a Computer Science graduate experienced in architecting and deploying end-to-end machine-learning systems. My domain focus spans data engineering, computer vision, and Large Language Models. I thrive in project-driven environments and enjoy translating research into production solutions.
+
+Currently, I'm contributing to research at Google DeepMind via the University of Exeter on "Scientific Paper Understanding with Multimodal LLMs and Knowledge Graphs" while previously a data scientist at Kelpi, a biomaterials company.
 
 ## Experience
 
-### Research Ready Intern — Google DeepMind (via University of Exeter IDSAI) (June 2025 – Present)
-
-* Contributing to the "Scientific Paper Understanding with Multimodal LLMs and Knowledge Graphs" research project under the supervision of Dr. Hang Dong and Dr. Zhang Guoqiang.
-* Developing and evaluating methods to improve the quality and contextual accuracy of image captioning for figures within scientific papers.
-* Working with multimodal architectures to bridge visual (figures, graphs) and textual (paper content) information.
-
-### Junior Data Scientist Intern — Kelpi (Jan 2025 – June 2025)
-
-* Given full ownership to architect, build, and deploy the company's primary data infrastructure from the ground up on Microsoft Azure.
-* Led the complete technical delivery of the system, designing and implementing the PostgreSQL database, all custom ETL pipelines, and automated workflows for data ingestion, transformation, and validation.
-* Standardised data formats and established validation processes, reducing manual data cleanup by 80% and significantly accelerating experimental analysis timelines for the science teams.
-* Worked cross-functionally with chemists and research scientists, gathering requirements, iterating on data models, and rolling out tailored solutions aligned with experimental processes.
-* Acted as an ML advisor to the CTO on Bayesian optimisation strategies(in partnership with external consultants) for biomaterials experiments and helping translate domain research into an actionable technical roadmap.
-
-### Freelance ML Consultant — (2024 – Present)
-
-* Patina Systems:
-* Designed and built a location-based image-matching retrieval API for Patina Systems.
-
-* Pagerift:
-* Fine-tuned a Large Language Model (Gemma 3) for creative story writing for Pagerift, integrating the DSPy framework to improve output quality.
-* Provided consulting on backend development and scalable ML architecture.
-
-### Machine Learning Engineer Intern — Noetic Health (May 2024 – Aug 2024)
-
-* Contributed to an AI-powered diagnostic platform for mental health by integrating multi-agent systems and LLMs (OpenAI, Claude, Groq) to create dynamic and empathetic user assessments.
-* Developed and maintained backend APIs with FastAPI and MongoDB, ensuring efficient communication between microservices.
-* Implemented safety and ethical guardrails to ensure responsible and secure AI usage.
-* Utilised AWS services to deploy and scale the platform in production.
+<div class="timeline">
+  <div class="timeline-item">
+    <span class="timeline-date">June 2025 – Present</span>
+    <h3 class="timeline-title">Research Ready Intern at Google DeepMind</h3>
+    <p>Contributing to research on scientific paper understanding with multimodal LLMs and knowledge graphs. Developing methods to improve the quality and contextual accuracy of image captioning for figures within scientific papers.</p>
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-date">Jan 2025 – June 2025</span>
+    <h3 class="timeline-title">Junior Data Scientist Intern at Kelpi</h3>
+    <p>Given full ownership to architect, build, and deploy the company's primary data infrastructure from the ground up on Microsoft Azure. Led the complete technical delivery of the system, reducing manual data cleanup by 80%.</p>
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-date">2024 – Present</span>
+    <h3 class="timeline-title">Freelance ML Consultant</h3>
+    <p>Designed location-based image-matching APIs and fine-tuned Large Language Models for creative writing. Provided consulting on backend development and scalable ML architecture for multiple startups.</p>
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-date">May 2024 – Aug 2024</span>
+    <h3 class="timeline-title">Machine Learning Engineer Intern at Noetic Health</h3>
+    <p>Contributed to an AI-powered diagnostic platform for mental health by integrating multi-agent systems and LLMs. Developed backend APIs with FastAPI and MongoDB, ensuring efficient communication between microservices.</p>
+  </div>
+</div>
 
 ## Education
 
-**BSc Computer Science, First Class Honours** (2021 – 2025)  
-Key Modules: Advanced AI 3, Machine Learning, AI 2, Advanced Software Development, Advanced Algorithms, Autonomous Agents & Multi-Agent Systems, Distributed & Enterprise Software Development.
-
-## Technical Skills
-
-**Languages** — Python, JavaScript, SQL, TypeScript, C++.
-
-**AI/ML** — PyTorch, TensorFlow, Keras, Scikit-learn, FastAPI, Django, LLM Fine-Tuning, DSPy, Computer Vision (Object Detection, Image Retrieval), Multi-Agent Systems, Data Pre-processing & Optimisation.
-
-**Databases** — PostgreSQL, MongoDB, NoSQL.
-
-**Cloud & Tools** — Azure, AWS, Git, GitHub, CircleCI, Jupyter, Agile (Scrum).
+**BSc Computer Science, First Class Honours**  
+University of Exeter (2021 – 2025)
