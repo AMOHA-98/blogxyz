@@ -10,6 +10,6 @@ I'm Ahmed, a computer science graduate driven by project-based learning. My codi
 
 These days I'm very interested in product more than research and have been hacking on different things through my consultancy.
 
-[Download CV]({{ '/assets/documents/cv.pdf' | relative_url }})
+[Download CV]({{ '/assets/documents/am-cv.pdf' | relative_url }})
 
 
