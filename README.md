@@ -1,2 +1,2 @@
-# am Portfolio
+# am
 A portfolio and blog exploring technology, AI, and possible futures.
