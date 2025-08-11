@@ -18,7 +18,7 @@ Designed a FastAPI microservice that performs geospatially-aware image matching 
 
 Fine-tuned a Large Language Model (Gemma 3) specifically for creative story writing, optimising the model for narrative coherence and stylistic consistency. Integrated the DSPy framework to improve model output quality through structured prompting and automated optimization techniques. Provided comprehensive consulting on backend development architecture and scalable ML deployment strategies. Developed custom evaluation metrics for creative writing quality assessment and iterative model improvement.
 
-No Stylist - Acq
+ No Stylist
 
 Built the machine-learning backend for a fashion application, handling large-scale image processing and similarity matching. Designed and implemented a product-similarity image-retrieval model using ResNet-50, experimenting with contrastive and triplet loss functions to achieve higher accuracy. Developed a core feature using a YOLOv8n model for clothing detection in user-uploaded images, enabling automated fashion item categorization. Optimised large-scale image datasets and leveraged high-performance GPUs for model training and deployment. Architected a sophisticated user avatar generation pipeline by chaining multiple deep learning models, including pose estimation, facial landmark detection, and generative adversarial networks for realistic avatar synthesis.
 
