@@ -5,8 +5,6 @@ date: 2025-07-20
 categories: [data-science, biomaterials, startups]
 ---
 
-My Experience Working as a Data Scientist at a Biomaterials Company
-
 During my internship as a Junior Data Scientist at Kelpi, a biomaterials startup, I discovered that data science in the real world is vastly different from the clean datasets and well-defined problems of academia. Working alongside chemistry PhDs who were developing bioplastics from seaweed, I found myself in an awkward intersection of computer science and materials science.
 
 One of the most remarkable aspects of working at Kelpi was witnessing the journey from raw seaweed to functional bioplastic materials. The chemistry team was conducting experiments involving complex metrics like WVTR (Water Vapor Transmission Rate) and Cobb tests for measuring water absorption. As the sole computer scientist among a team of chemistry PhDs, I had to quickly learn not just what these measurements meant, but how to structure them in ways that would enable meaningful analysis.
