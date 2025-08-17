@@ -59,7 +59,7 @@ Dobbs v. Jackson Women’s Health Organization, 2022, Supreme Court opinion and 
 
 International Federation of Robotics, World Robotics 2024, press release and slide deck with stock and annual installations. https://ifr.org/downloads/press2018/2024-SEP-24_IFR_press_release_World_Robotics_2024_-_global_market.pdf and https://ifr.org/img/worldrobotics/Press_Conference_2024.pdf
 
-McKinsey estimates on automation by 2030 in the US and Europe, and the broader generative AI potential. https://www.mckinsey.com/mgi/our-research/generative-ai-and-the-future-of-work-in-america and https://www.mckinsey.com/mgi/our-research/a-new-future-of-work-the-race-to-deploy-ai-and-raise-skills-in-europe-and-beyond and https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/the%20economic%20potential%20of%20generative%20ai%20the%20next%20productivity%20frontier/the-economic-potential-of-generative-ai-the-next-productivity-frontier.pdf
+McKinsey estimates on automation by 2030 in the US and Europe, and the broader generative AI potential. https://www.mckinsey.com/mgi/our-research/generative-ai-and-the-future-of-work-in-america and https://www.mckinsey.com/mgi/our-research/a-new-future-of-work-the-race-to-deploy-ai-and-raise-skills-in-europe-and-beyond 
 
 Gendered task mix evidence, BLS. Table on employed persons by detailed occupation and sex. https://www.bls.gov/cps/cpsaat11.htm
 
