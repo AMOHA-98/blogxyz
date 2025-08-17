@@ -33,21 +33,36 @@ References:
 
 World Bank, Women, Business and the Law 2024 overview and data notes. https://wbl.worldbank.org/en/reports/wbl-2024
 UK Parliament resources on the Representation of the People Act 1918 and the Equal Franchise Act 1928. https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/representation-of-the-people-act-1918/ and https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/equal-franchise-act-1928/
+
 France, women’s suffrage in 1944. Library of Congress blog note on the decree and first elections. https://blogs.loc.gov/manuscripts/2024/04/les-femmes-francaises-veulent-voter-celebrating-80-years-of-french-womens-suffrage/
+
 New Zealand suffrage history and the 1893 Electoral Act, NZHistory and Manatū Wāhine. https://nzhistory.govt.nz/politics/womens-suffrage and https://women.govt.nz/history-of-womens-suffrage
+
 Parliament of Finland resources on 1906 universal suffrage and the right to stand for office. https://www.eduskunta.fi/EN/tietoaeduskunnasta/yhteystiedot/mediaaineistot/Pages/100-years-of-womens-suffrage.aspx
+
 Michael L. Ross, “Oil, Islam, and Women,” American Political Science Review, 2008, and related rentier state literature. https://www.cambridge.org/core/journals/american-political-science-review/article/oil-islam-and-women/0F0D3B7E7E6D8C5E5B3C5E2A02A0D9B1 and “Does Oil Hinder Democracy?,” World Politics, 2001. https://charlespowell.eu/wp-content/uploads/2018/10/Does-Oil-Hinder-Democracy-Ross.pdf
+
 Saudi reforms and participation: women driving in June 2018 and female labour force participation updates. https://time.com/5324404/saudi-arabia-driving-ban-rebrand-or-revolution/ and GASTAT labour market releases showing female participation around the mid 30s in 2024. https://www.stats.gov.sa/documents/d/guest/lms-q4_2024_pr_en-press-release-pdf and Vision 2030 materials acknowledging the original 30 percent target has been exceeded. https://www.vision2030.gov.sa/en/media/articles/saudi-arabia-s-new-economic-development-model
+
 Acemoglu and Restrepo on automation and tasks: “Automation and New Tasks” and “The Wrong Kind of AI.” https://economics.mit.edu/sites/default/files/publications/Automation_and_New_Tasks_0.pdf and https://www.aeaweb.org/lectures/the-wrong-kind-of-ai
+
 World Bank, “Trouble in the Making? The Future of Manufacturing-Led Development” 2017. https://openknowledge.worldbank.org/server/api/core/bitstreams/6f1c8df1-cb03-5f6a-b9db-c2f7b1bf15c0/content
+
 ILO, “Generative AI and Jobs: A Global Analysis” 2023 and the refined exposure index 2025. https://www.ilo.org/skills/WhatsNew/WCMS_894364/lang--en/index.htm and https://www.ilo.org/global/publications/ilo-databases/WCMS_932920/lang--en/index.htm
+
 IMF, “Gen AI: Artificial Intelligence and the Future of Work” 2024. https://www.imf.org/-/media/Files/Publications/SDN/2024/English/SDNEA2024001.ashx
+
 UN DESA, World Population Prospects 2024, key messages and summary. https://population.un.org/wpp/assets/Files/WPP2024_Key-Messages.pdf and https://population.un.org/wpp/assets/Files/WPP2024_Summary-of-Results.pdf
 The Lancet, 2024 global fertility projections. https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2824%2900550-6/fulltext
+
 Dobbs v. Jackson Women’s Health Organization, 2022, Supreme Court opinion and Guttmacher state tracker. https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf and https://states.guttmacher.org/
+
 International Federation of Robotics, World Robotics 2024, press release and slide deck with stock and annual installations. https://ifr.org/downloads/press2018/2024-SEP-24_IFR_press_release_World_Robotics_2024_-_global_market.pdf and https://ifr.org/img/worldrobotics/Press_Conference_2024.pdf
+
 McKinsey estimates on automation by 2030 in the US and Europe, and the broader generative AI potential. https://www.mckinsey.com/mgi/our-research/generative-ai-and-the-future-of-work-in-america and https://www.mckinsey.com/mgi/our-research/a-new-future-of-work-the-race-to-deploy-ai-and-raise-skills-in-europe-and-beyond and https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/the%20economic%20potential%20of%20generative%20ai%20the%20next%20productivity%20frontier/the-economic-potential-of-generative-ai-the-next-productivity-frontier.pdf
+
 Gendered task mix evidence, BLS. Table on employed persons by detailed occupation and sex. https://www.bls.gov/cps/cpsaat11.htm
+
 Garment sector and BPO female shares and exposure. ILO Asia garment sector overview and ILO on BPO. https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40asia/%40ro-bangkok/documents/publication/wcms_848624.pdf and https://www.ilo.org/media/428791/download
 
 

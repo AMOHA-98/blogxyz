@@ -102,20 +102,35 @@ ________________________________________
 ### Resources
 
 •	Yong, Z. X., et al. “Low-Resource Languages Jailbreak GPT-4.” arXiv (2023): https://arxiv.org/abs/2310.02446
+
 •	PDF mirror: https://arxiv.org/pdf/2310.02446
+
 •	Shen, L., et al. “Dissecting Safety Challenges of LLMs in Multilingual Settings.” Findings of ACL (2024): https://aclanthology.org/2024.findings-acl.156.pdf
+
 •	Ghanim, M. A., et al. “Jailbreaking LLMs with Arabic Transliteration and Arabizi.” EMNLP 2024: https://aclanthology.org/2024.emnlp-main.1034.pdf
+
 •	Anil, C., et al. “Many-Shot Jailbreaking.” OpenReview/NeurIPS 2024: https://openreview.net/forum?id=cw5mgd71jW
+
 •	Bai, Y., et al. “Constitutional AI: Harmlessness from AI Feedback.” arXiv (2022): https://arxiv.org/abs/2212.08073
+
 •	“Training LLMs to Prioritize Privileged Instructions.” arXiv (2024): https://arxiv.org/html/2404.13208v1
+
 •	Zhao, W., et al. “Multilingual Safety Alignment via Reward Gap Optimization.” ACL 2025: https://aclanthology.org/2025.acl-long.1149.pdf
+
 •	Yoo, H., et al. “Code-Switching Red-Teaming.” ACL 2025 Findings: https://aclanthology.org/2025.acl-long.657.pdf
+
 •	OpenReview. “Long-Context LLMs Struggle with Safety Issues.” https://openreview.net/pdf?id=dQzpP9ziaJ
+
 •	Kumar, A., et al. “Certifying LLM Safety against Adversarial Prompting.” OpenReview: https://openreview.net/forum?id=wNere1lelo
+
 •	Promptfoo. “The Invisible Threat: Zero-Width Unicode.” https://www.promptfoo.dev/blog/invisible-unicode-threats/
+
 •	Prompt.security. “Unicode Exploits Are Compromising Application Security.” https://www.prompt.security/blog/unicode-exploits-are-compromising-application-security
+
 •	Keysight. “Invisible Prompt Injection Attack.” https://www.keysight.com/blogs/en/tech/nwvs/2025/05/16/invisible-prompt-injection-attack
+
 •	 OpenAI GPT-OSS System Card — https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf
+
 •	Deliberative Alignment — https://arxiv.org/pdf/2412.16339
 
 

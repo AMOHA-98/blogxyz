@@ -3,7 +3,6 @@
 :root {
   --primary-accent: #4ea1ff;
   --secondary-accent: #00FF7F;
-  --text-color: #E0E0E0;
   --primary-accent-rgb: 78, 161, 255;
   --secondary-accent-rgb: 0, 255, 127;
   --background-gradient: linear-gradient(120deg, #0a0a0a 0%, #111827 100%);
@@ -11,7 +10,6 @@
 }
 
 [data-theme='light'] {
-  --text-color: #222;
   --background-gradient: linear-gradient(120deg, #faf9f6 0%, #f0ede6 100%);
   --container-bg: rgba(250, 249, 246, 0.9);
 }
@@ -198,8 +196,9 @@ blockquote p:last-child {
 /* Responsive images in posts */
 article img {
   display: block;
-  width: 200px !important;
-  height: 200px !important;
+  width: 400px !important;
+  height: auto !important;
+  max-height: 300px !important;
   margin: 1rem 0;
   border-radius: 6px;
   object-fit: contain;
