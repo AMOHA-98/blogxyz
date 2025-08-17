@@ -198,10 +198,8 @@ blockquote p:last-child {
 /* Responsive images in posts */
 article img {
   display: block;
-  max-width: 600px;
-  max-height: 400px;
-  width: auto;
-  height: auto;
+  width: 200px !important;
+  height: 200px !important;
   margin: 1rem 0;
   border-radius: 6px;
   object-fit: contain;
