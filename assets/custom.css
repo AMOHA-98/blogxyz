@@ -194,3 +194,12 @@ blockquote p:last-child {
   cursor: pointer;
   z-index: 1000;
 }
+
+/* Responsive, centered images in posts */
+article img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  max-height: 75vh;
+}
