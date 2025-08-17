@@ -198,8 +198,17 @@ blockquote p:last-child {
 /* Responsive, centered images in posts */
 article img {
   display: block;
-  max-width: 100%;
+  width: auto;
+  max-width: 90%;
   height: auto;
   margin: 1rem auto;
-  max-height: 75vh;
+  max-height: 70vh;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  article img {
+    max-width: 100%;
+    max-height: 60vh;
+  }
 }
