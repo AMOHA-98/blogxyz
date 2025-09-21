@@ -3,6 +3,7 @@ layout: post
 title: "Notes on adversarial prompting, multilingual side-channels and instruction hierarchy"
 date: 2025-08-17
 categories: [ai, safety]
+published: false
 ---
 
 
