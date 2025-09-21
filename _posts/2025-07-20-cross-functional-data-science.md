@@ -3,6 +3,7 @@ layout: post
 title: "My Experience Working as a Data Scientist at a Biomaterials Company"
 date: 2025-07-20
 categories: [data-science, biomaterials, startups]
+published: false
 ---
 
 During my internship as a Junior Data Scientist at Kelpi, a biomaterials startup, I discovered that data science in the real world is vastly different from the clean datasets and well-defined problems of academia. Working alongside chemistry PhDs who were developing bioplastics from seaweed, I found myself in an awkward intersection of computer science and materials science.
