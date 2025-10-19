@@ -1,23 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:400,700&display=swap');
 
 :root {
+  /* Core palette */
   --primary-accent: #4ea1ff;
   --secondary-accent: #00FF7F;
   --primary-accent-rgb: 78, 161, 255;
   --secondary-accent-rgb: 0, 255, 127;
-  --background-gradient: linear-gradient(120deg, #0a0a0a 0%, #111827 100%);
-  --container-bg: rgba(20, 20, 20, 0.85);
+
+  /* Light mode defaults */
+  --bg-color: #faf9f6;
+  --text-color: #1a1a1a;
+  --accent-color: #666666;
+  --card-bg: #faf9f6;
+  --border-color: #eaeaea;
+  --hover-bg: #f0ede6;
+  --muted-text: #666666;
+  --light-text: #999999;
 }
 
-[data-theme='light'] {
-  --background-gradient: linear-gradient(120deg, #faf9f6 0%, #f0ede6 100%);
-  --container-bg: rgba(250, 249, 246, 0.9);
+[data-theme='dark'] {
+  --bg-color: #0a0a0a;
+  --text-color: #e5e5e5;
+  --accent-color: #888888;
+  --card-bg: #0a0a0a;
+  --border-color: #222222;
+  --hover-bg: #111111;
+  --muted-text: #888888;
+  --light-text: #666666;
 }
 
 body {
   font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   font-size: 14px;
-  background: #faf9f6;
+  background: var(--bg-color);
   color: var(--text-color);
   letter-spacing: normal;
   position: relative;
@@ -152,7 +167,7 @@ pre {
 /* Minimalist scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
-  background: #111;
+  background: var(--bg-color);
 }
 ::-webkit-scrollbar-thumb {
   background: var(--primary-accent);
