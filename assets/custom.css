@@ -127,9 +127,11 @@ h3, h4, h5, h6 {
 
 a {
   color: var(--text-color);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: var(--border-color);
+  text-underline-offset: 2px;
   position: relative;
-  transition: none;
+  transition: text-decoration-color 0.2s ease;
 }
 
 a::after {
@@ -137,7 +139,7 @@ a::after {
 }
 
 a:hover {
-  color: var(--text-color);
+  text-decoration-color: var(--text-color);
   background: none;
 }
 
