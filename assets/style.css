@@ -339,26 +339,7 @@ section h2 {
   }
 }
 
-/* Projects page link affordances */
-.projects a {
-  position: relative;
-  text-decoration-color: var(--border-color);
-}
-
-.projects a:hover {
-  text-decoration-color: var(--accent-color);
-}
-
-.projects a[target="_blank"]::after {
-  content: '↗';
-  font-size: 12px;
-  margin-left: 4px;
-  color: var(--muted-text);
-}
-
-.projects a:hover[target="_blank"]::after {
-  color: var(--text-color);
-}
+/* removed projects wrapper styles to inherit default link styling */
 /* Project top links */
 .project-links {
   margin: 1rem 0 2rem;
