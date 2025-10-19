@@ -24,3 +24,9 @@ permalink: /:year/:month/:day/:title/
 sass:
   style: compressed
 
+
+# Optional project asset links
+# Add your real URLs to show links on the Projects page
+gdm_poster_url: "/assets/documents/gdrr_presentation_final.pdf"
+muse_demo_url: "https://x.com/NidarMMV2/status/1979575926515257700"
+

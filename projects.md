@@ -5,6 +5,9 @@ permalink: /projects/
 ---
 
 
+{% include project-links.html %}
+
+
 
 BSc Dissertation - Automatic Detection of Diabetic Retinopathy on Edge Devices
 

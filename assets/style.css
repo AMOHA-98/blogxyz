@@ -338,3 +338,30 @@ section h2 {
     gap: 1rem;
   }
 }
+
+/* Project top links */
+.project-links {
+  margin: 1rem 0 2rem;
+}
+
+.button-row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--card-bg);
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.btn:hover {
+  background: var(--hover-bg);
+}
