@@ -313,12 +313,12 @@ section h2 {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #000000;
+  background: var(--text-color);
 }
 
 .timeline-date {
   font-size: 14px;
-  color: #000000;
+  color: var(--text-color);
   margin-bottom: 0.25rem;
   display: block;
   font-weight: normal;
