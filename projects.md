@@ -31,5 +31,7 @@ Investigated and compared Vision Transformer (ViT) and CNN architectures for det
 
  No Stylist
 
-Helped build the machine-learning backend for a fashion application, handling large-scale image processing and similarity matching. Designed and implemented a product-similarity image-retrieval model using ResNet-50, experimenting with contrastive and triplet loss functions to achieve higher accuracy. Developed a core feature using a YOLOv8n model for clothing detection in user-uploaded images, enabling automated fashion item categorization. Optimised large-scale image datasets and leveraged high-performance GPUs for model training and deployment. Architected a sophisticated user avatar generation pipeline by chaining multiple deep learning models, including pose estimation, facial landmark detection, and generative adversarial networks for realistic avatar synthesis.
+Helped build the machine-learning backend for a fashion application, handling large-scale image processing and similarity matching. Designed and implemented a product-similarity image-retrieval model using ResNet-50, experimenting with contrastive and triplet loss functions to achieve higher accuracy. Developed a core feature using a YOLOv8n model for clothing detection in user-uploaded images, enabling automated fashion item categorization. Optimised large-scale image datasets and leveraged high-performance GPUs for model training and deployment. Experimented with a sophisticated user avatar generation pipeline by chaining multiple deep learning models, including pose estimation, facial landmark detection, and generative adversarial networks for realistic avatar synthesis.
+
+See the demo [here](https://youtube.com/shorts/Wo5HfW8VT20?feature=share "Open demo on YouTube").
 
