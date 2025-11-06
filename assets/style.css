@@ -213,6 +213,17 @@ a:hover {
   font-weight: normal;
 }
 
+.card a.card-link {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.card:hover a.card-link h3 {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
 .card h3 a {
   text-decoration: none;
   color: var(--text-color);
@@ -262,7 +273,7 @@ section h2 {
 }
 
 .card:hover .post-meta {
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 
 .site-footer {
