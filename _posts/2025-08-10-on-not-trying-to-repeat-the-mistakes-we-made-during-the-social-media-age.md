@@ -3,6 +3,7 @@ layout: post
 title: "On not trying to repeat the mistakes we made during the social-media age"
 date: 2025-08-10
 categories: [ai, society, ethics]
+published: false
 ---
 
 I’ve been thinking a lot recently about model behaviour and how many mistakes from the social-media era are being replayed with AI. Sam Altman once called algorithmic feeds “the first at-scale misaligned AIs,” and that framing keeps ringing in my ears.
