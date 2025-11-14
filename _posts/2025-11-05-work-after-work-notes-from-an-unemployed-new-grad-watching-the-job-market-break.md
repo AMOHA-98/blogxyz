@@ -3,6 +3,7 @@ layout: post
 title: "Work, After Work: Notes From an Unemployed New Grad Watching the Job Market Break"
 date: 2025-11-05
 categories: [work, economics, automation]
+published: false
 ---
 
 I have been putting off writing this for a month, mostly because I did everything I was supposed to do and it still feels like I have no idea what game I am actually playing.
