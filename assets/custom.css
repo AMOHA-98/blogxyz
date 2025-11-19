@@ -84,7 +84,7 @@ code, pre, .mono {
 .site-header {
   padding: 2rem 0;
   margin-bottom: 3rem;
-  border-bottom: 4px solid var(--accent-color); /* Top Color Block */
+  /* Removed border-bottom as requested */
 }
 
 .nav-links {
@@ -117,8 +117,8 @@ a {
 }
 
 a:hover {
-  background-color: var(--accent-color);
-  color: var(--bg-color); /* Invert for high contrast block effect */
+  background-color: var(--hover-bg); /* Subtle darker background instead of solid color */
+  color: var(--accent-color); /* Text turns accent color */
   border-bottom-color: var(--accent-color);
 }
 
@@ -259,4 +259,52 @@ hr {
 ::selection {
   background: var(--accent-color);
   color: var(--bg-color);
+}
+
+/* Experience / Timeline Section */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  border-left: 2px solid var(--border-color);
+  padding-left: 2rem;
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  position: relative;
+}
+
+/* Experience Typography Fixes */
+.timeline-date {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--muted-text);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.timeline-title {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--text-color);
+  margin: 0;
+  line-height: 1.4;
+  text-transform: none; /* Remove uppercase to reduce "shouting" feel */
+}
+
+/* Little dot for the timeline */
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.35rem; /* Align with the border line */
+  top: 0.4rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: var(--accent-color);
+  border-radius: 0; /* Square dot for technical feel */
 }
