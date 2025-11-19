@@ -16,10 +16,6 @@ permalink: /projects/
       
       <div class="project-content">
         <p class="project-description">{{ project.description }}</p>
-
-        {% if project.image %}
-          <img src="{{ project.image | relative_url }}" alt="{{ project.title }} screenshot" class="project-image">
-        {% endif %}
         
         {% if project.link %}
           <a href="{{ project.link }}" class="project-link-button" target="_blank" rel="noopener noreferrer">

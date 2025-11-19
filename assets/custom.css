@@ -288,15 +288,3 @@ article img {
 .project-link-button:hover .arrow {
   transform: translateX(4px);
 }
-
-.project-image {
-  width: 100%;
-  max-width: 100%;
-  max-height: 400px;
-  object-fit: contain;
-  object-position: left top;
-  border-radius: 4px;
-  margin-top: 1rem;
-  border: 1px solid var(--border-color);
-  display: block;
-}
