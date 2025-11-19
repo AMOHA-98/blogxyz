@@ -2,38 +2,25 @@
 
 :root {
   /* Rothko-Inspired Palette (Deep, Moody, Emotional) */
-  /* Light Mode: Canvas-like warmth */
-  --bg-color: #E8E4D9; /* Natural canvas/linen */
-  --text-color: #2F2F2F; /* Soft, ink-like black */
-  --muted-text: #5C5855; /* Faded ink */
-  
-  /* The "Rothko" Block Colors - Deep & Resonant */
-  --accent-color: #8C3F31; /* Deep Ochre/Rust Red */
-  --secondary-accent: #2C4259; /* Midnight Blue (Complementary) */
-  
-  --link-color: #2F2F2F;
-  --hover-bg: #DCD8CD; /* Slightly darker canvas */
-  --border-color: #C9C5BC;
-  
-  /* Spacing */
-  --container-width: 680px;
-  --nav-height: 80px;
-}
-
-[data-theme='dark'] {
-  /* Dark Mode: "The Chapel" Vibe - Deep, absorbent darkness */
+  /* Default Theme: "The Chapel" Vibe - Deep, absorbent darkness */
   --bg-color: #181615; /* Deep brownish-black */
   --text-color: #D4D0C7; /* Pale stone */
   --muted-text: #8F8B85;
   
-  /* Dark Mode Accents - Glowing from within */
+  /* Accents - Glowing from within */
   --accent-color: #A6493B; /* Lighter Rust for visibility */
   --secondary-accent: #4A6075; /* Muted Blue */
   
   --link-color: #D4D0C7;
   --hover-bg: #242120;
   --border-color: #33302E;
+  
+  /* Spacing */
+  --container-width: 680px;
+  --nav-height: 80px;
 }
+
+/* Light mode removed as requested */
 
 /* Global Reset & Typography */
 * {
@@ -225,26 +212,7 @@ blockquote {
 }
 
 #theme-toggle {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  background: var(--bg-color);
-  border: 2px solid var(--text-color);
-  color: var(--text-color);
-  width: 48px;
-  height: 48px;
-  border-radius: 0; /* Square toggle */
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease;
-  z-index: 100;
-}
-
-#theme-toggle:hover {
-  background: var(--text-color);
-  color: var(--bg-color);
+  display: none !important;
 }
 
 /* Utility for Color Blocking */
