@@ -4,5 +4,5 @@ layout: home
 permalink: /
 ---
 
-Hello! I'm Ahmed, a recent computer science graduate experienced in architecting and deploying end-to-end machine-learning systems. My domain focus spans product engineering, computer vision, and large language models. I thrive in project-driven environments and enjoy translating research into production solutions.
+Hello! I'm Ahmed, a Founding Engineer at a stealth startup. I build end-to-end machine-learning systems across product engineering, computer vision, and large language models. Previously, I was a Research Ready intern at Google DeepMind.
 
