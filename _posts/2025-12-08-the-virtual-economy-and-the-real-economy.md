@@ -2,6 +2,7 @@
 layout: post
 title: "The Virtual Economy and the Real Economy"
 date: 2025-12-08
+categories: [economics, policy, ai]
 ---
 
 I have been thinking about China a lot lately, partly because I have been reading and listening to a lot of Dan Wang, and partly because the conversations I keep having with friends about the West keep circling back to the same frustration. We talk about housing, trains, energy, defence, robots, supply chains, data centres, even basic public services, and then we hit this wall where everyone agrees the thing should exist, everyone can describe the thing in a powerpoint, and then the thing either takes ten years longer than it should or it never happens at all. It is tempting to treat that as a story about competence, or culture, or corruption, or some vague decline in “work ethic,” and I do not think any of those explanations are useless, but they also feel like ways of avoiding the real question, which is the question I want to sit with in this post. What does a society select for, year after year, when it gets very good at measuring and rewarding outcomes that are legible in money, and very bad at protecting the long, slow accumulation of physical capability that does not show up neatly on a quarterly chart.
