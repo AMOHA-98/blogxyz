@@ -6,9 +6,9 @@ permalink: /about/
 
 
 
-I'm Ahmed, a computer science graduate driven by project-based learning. My coding journey started long before formal study, and I've since tackled projects ranging from using lightweight vision systems for diagnostics to litter detection systems. 
+I'm Ahmed, a Founding Engineer at a stealth startup. I work across ML, backend, and product—building end-to-end systems and figuring out what to build next.
 
-I'm currently a Founding Engineer at a stealth startup. These days I'm focused on product execution and building systems end-to-end across ML and software.
+Before this I studied computer science and did internships spanning data engineering, applied ML, and product work.
 
 [Download CV]({{ '/assets/documents/am-cv.pdf' | relative_url }})
 
