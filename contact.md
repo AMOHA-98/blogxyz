@@ -6,13 +6,10 @@ permalink: /contact/
 
 
 
-Feel free to reach out to me:
+The easiest way to reach me is by email.
 
 <div class="social-links">
-  <a href="https://twitter.com/nidarmmv2" target="_blank">Twitter</a>
-  <a href="https://www.linkedin.com/in/ahmed-mohamed-ahmed-a5387a294" target="_blank">LinkedIn</a>
-  <a href="https://github.com/AMOHA-98" target="_blank">GitHub</a>
-  <a href="mailto:workwithahmed0@outlook.com">Email</a>
+  <a href="mailto:workwithahmed0@outlook.com">workwithahmed0@outlook.com</a>
 </div>
 
 

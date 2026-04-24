@@ -1,11 +1,11 @@
-title: ""
+title: "Ahmed"
 description: "Exploring technology, AI, and possible futures"
 baseurl: ""
 url: "https://urlahmed.com"
 
 style: light
 
-footer: 'Connect with me on <a href="https://twitter.com/nidarmmv2">Twitter</a>'
+footer: ""
 
 # Build settings
 markdown: kramdown
@@ -24,9 +24,4 @@ permalink: /:year/:month/:day/:title/
 sass:
   style: compressed
 
-
-# Optional project asset links
-# Add your real URLs to show links on the Projects page
-gdm_poster_url: "/assets/documents/gdrr_presentation_final.pdf"
-muse_demo_url: "https://x.com/NidarMMV2/status/1979575926515257700"
 

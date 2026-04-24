@@ -10,4 +10,30 @@ layout: minimal
   </div>
 </div>
 
+<section class="home-section">
+  <div class="section-heading">
+    <h2>Writing</h2>
+    <a href="{{ '/blog/' | relative_url }}">View all writing</a>
+  </div>
 
+  <div class="writing-list">
+    {% for post in site.posts limit:3 %}
+      <article class="writing-item">
+        <a href="{{ post.url | relative_url }}">
+          <span class="writing-title">{{ post.title }}</span>
+          <span class="writing-meta">{{ post.date | date: "%B %d, %Y" }}</span>
+          <span class="writing-excerpt">{{ post.excerpt | strip_html | truncatewords: 24 }}</span>
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="section-heading">
+    <h2>About</h2>
+    <a href="{{ '/about/' | relative_url }}">More about</a>
+  </div>
+
+  <p>I build software and write about technology, AI, labour, infrastructure, culture, and possible futures.</p>
+</section>
