@@ -5,10 +5,10 @@ permalink: /about/
 ---
 
 
-I'm Ahmed. I build software and write about technology, AI, labour, infrastructure, culture, and the strange edges where technical systems meet ordinary life.
+I'm Ahmed. I build software and spend a lot of time thinking about what comes next.
 
-This site is mostly a place to think in public. The writing is less about having a neat thesis and more about noticing patterns: what automation changes, what institutions fail to see, what gets easier when intelligence gets cheap, and what remains stubbornly physical.
+This site is mostly a place to put ideas somewhere. The writing is less about having a neat thesis and more about setting down a thought clearly enough that I can return to it later.
 
-Professionally, I work across ML, backend, and product. Personally, I am interested in futures that feel close enough to touch but weird enough that we do not yet have good language for them.
+Professionally, I work across ML, backend, and product. Personally, I am interested in this weird moment we are in: what is changing, what is breaking and what is becoming possible.
 
 
