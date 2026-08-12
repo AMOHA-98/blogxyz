@@ -3,6 +3,7 @@ layout: post
 title: "On Cultural Half-Life: One Synthetic Mind and the Shrinking Life of Taste"
 date: 2025-11-13
 categories: [ai, culture]
+published: false
 ---
 
 A while ago I was swapping screenshots with a designer friend. We were both poking at the new generation of model based tools. His complaint was simple: “Everything looks like a SaaS landing page from about five years ago.” Purple gradients, friendly avatars, soft cards, the usual pattern from old dribbble boards. If you gave the system very careful art direction you could drag it out of that hole, but the default kept snapping back to the same safe starter kit.

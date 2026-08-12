@@ -3,7 +3,7 @@ layout: post
 title: "Work, After Work: Notes From an Unemployed New Grad Watching the Job Market Break"
 date: 2025-11-05
 categories: [work, economics, automation]
-published: true
+published: false
 ---
 
 > Hey all—thank you for the support on this blog. The response has been amazing and honestly overwhelming. I took it down for a few days, but I'm bringing it back as an archive. I hope you enjoy it or find it useful. Thank you to everyone who reached out; I really appreciate it.

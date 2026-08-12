@@ -3,6 +3,7 @@ layout: post
 title: "On automation’s gendered risk"
 date: 2025-08-11
 categories: [ai, society, economics]
+published: false
 ---
 
 A version of this has been sitting in my head for a couple of years. I kept not writing it down because it is touchy, and because I did not know how to talk about it publicly while hunting for jobs. Take this as a brain dump rather than a finished argument. I want to provoke a useful argument and a planning mindset, because I have not seen many people think this through.

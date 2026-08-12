@@ -3,6 +3,7 @@ layout: post
 title: "Aligned To Whom, Disciplined Into What"
 date: 2025-11-22
 categories: [ai, safety, policy]
+published: false
 ---
 
 Alignment talk usually lives in technical papers and LessWrong threads, corrigibility and reward modelling and all that. What I keep turning over in my head is much less about clever schemes for steering models and much more about the way those schemes land in ordinary lives once you push them into products and laws and the tools people use every day.
